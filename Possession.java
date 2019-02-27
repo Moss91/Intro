@@ -9,8 +9,8 @@ package practice1;
  *
  * @author TiehoM
  */
-public class Goal extends GameEvent{
+public class Possession extends GameEvent{
     public String toString(){
-        return "Goal scored";
+        return "Possession";
     }
 }

@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practice1;
+package utility;
+import practice1.*;
 
 /**
  *
  * @author TiehoM
  */
-public class Goal extends GameEvent{
-    public String toString(){
-        return "Goal scored";
+public class PlayerDatabaseException extends Exception{
+    public PlayerDatabaseException(String message){
+        super(message);
     }
 }
